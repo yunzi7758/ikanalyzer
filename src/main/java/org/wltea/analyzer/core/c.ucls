@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.wltea.analyzer.core.AnalyzeContext" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/AnalyzeContext.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="370" y="171"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.wltea.analyzer.core.CharacterUtil" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/CharacterUtil.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="61" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.wltea.analyzer.core.CJKSegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/CJKSegmenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="187" y="397"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.wltea.analyzer.core.CN_QuantifierSegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/CN_QuantifierSegmenter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="469" y="400"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.wltea.analyzer.core.IKArbitrator" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/IKArbitrator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="368" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.wltea.analyzer.core.IKSegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/IKSegmenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="114" y="158"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="org.wltea.analyzer.core.ISegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/ISegmenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="363" y="257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="org.wltea.analyzer.core.LetterSegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/LetterSegmenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="314" y="400"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.wltea.analyzer.core.Lexeme" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/Lexeme.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="583" y="116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.wltea.analyzer.core.LexemePath" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/LexemePath.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="595" y="286"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.wltea.analyzer.core.QuickSortSet" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/QuickSortSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="589" y="198"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.wltea.analyzer.core.QuickSortSet.Cell" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/QuickSortSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="774" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <note id="13">    
+    <position height="101" width="238" x="3" y="220"/>    
+    <text><![CDATA[IKSegmenter分段器
+1，初始化其他三个分段器，
+初始化配置与字典，上下文，歧义裁决器
+2，从context获取词元
+segmenter分段
+arbitrator处理歧义]]>
+    </text>  
+  </note>  
+  <note id="14">    
+    <position height="100" width="200" x="704" y="314"/>    
+    <text><![CDATA[context上下文
+填充词段buffer--
+获取词元--从链表弹出，合并量词（智能），判断停用词]]>
+    </text>  
+  </note>  
+  <association id="15">    
+    <end type="SOURCE" refId="1" navigable="false" variant="ASSOCIATION">      
+      <attribute id="16" name="orgLexemes"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="12" navigable="false" variant="ASSOCIATION">      
+      <attribute id="19" name="next"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <end type="SOURCE" refId="6" navigable="false" variant="ASSOCIATION">      
+      <attribute id="22" name="segmenters"/>      
+      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="11" navigable="false" variant="ASSOCIATION">      
+      <attribute id="25" name="head"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="1" navigable="false" variant="ASSOCIATION">      
+      <attribute id="28" name="pathMap"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="30">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="32">    
+    <end type="SOURCE" refId="6" navigable="false" variant="ASSOCIATION">      
+      <attribute id="33" name="arbitrator"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="12" navigable="false" variant="ASSOCIATION">      
+      <attribute id="36" name="prev"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="6" navigable="false" variant="ASSOCIATION">      
+      <attribute id="39" name="context"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="12" navigable="false" variant="ASSOCIATION">      
+      <attribute id="42" name="lexeme"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="45">    
+    <end type="SOURCE" refId="11" navigable="false" variant="ASSOCIATION">      
+      <attribute id="46" name="tail"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="48">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <nesting id="49">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <association id="50">    
+    <end type="SOURCE" refId="1" navigable="false" variant="ASSOCIATION">      
+      <attribute id="51" name="results"/>      
+      <multiplicity id="52" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

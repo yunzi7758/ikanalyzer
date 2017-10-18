@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true">  
+  <object id="1" language="java" name="org.wltea.analyzer.core.IKSegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/IKSegmenter.java" binary="false" label="ikSegmenter" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="102" y="0"/>    
+    <execution id="2">      
+      <position height="152" width="103" x="5" y="92"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="21" width="103" x="5" y="134"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="21" width="103" x="5" y="134"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="89" width="103" x="5" y="134"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="org.wltea.analyzer.core.ISegmenter" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/ISegmenter.java" binary="false" label="iSegmenter" 
+    type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="149" y="0"/>    
+    <execution id="14">      
+      <position height="63" width="103" x="112" y="197"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="org.wltea.analyzer.core.IKArbitrator" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/IKArbitrator.java" binary="false" label="ikArbitrator" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="449" y="0"/>    
+    <execution id="18">      
+      <position height="63" width="103" x="219" y="235"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="org.wltea.analyzer.core.AnalyzeContext" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/AnalyzeContext.java" binary="false" label="analyzeContext" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="541" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="111" x="326" y="155"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="111" x="326" y="181"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="111" x="326" y="218"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="111" x="326" y="256"/>    
+    </execution>    
+    <execution id="22">      
+      <position height="84" width="111" x="326" y="285"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="21" width="111" x="326" y="327"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="84" width="111" x="326" y="382"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="111" x="326" y="424"/>    
+    </execution>  
+  </object>  
+  <object id="28" language="java" name="org.wltea.analyzer.core.Lexeme" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/Lexeme.java" binary="false" label="lexeme" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="561" y="0"/>  
+  </object>  
+  <object id="29" language="java" name="org.wltea.analyzer.core.QuickSortSet" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/QuickSortSet.java" binary="false" label="quickSortSet" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="699" y="0"/>  
+  </object>  
+  <object id="30" language="java" name="org.wltea.analyzer.core.QuickSortSet.Cell" project="ikanalyzer" 
+    file="/ikanalyzer/src/main/java/org/wltea/analyzer/core/QuickSortSet.java" binary="false" label="cell" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="699" y="0"/>  
+  </object>  
+  <message id="3" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="next():org.wltea.analyzer.core.Lexeme" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="getNextLexeme():org.wltea.analyzer.core.Lexeme" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="fillBuffer(java.io.Reader):int" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="15" asynchronous="false">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="19" asynchronous="false">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="23" operation="outputToResult():void" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="26" operation="markBufferOffset():void" asynchronous="false">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>
+</sequence-diagram>
