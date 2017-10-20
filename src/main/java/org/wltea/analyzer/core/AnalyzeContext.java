@@ -310,6 +310,9 @@ class AnalyzeContext {
 	 * 返回lexeme 
 	 * 
 	 * 同时处理合并
+	 * 
+	 * Lexeme词元第一次被切段，存入了相对起始位置begin和长度length
+	 * 这里根据位置信息从segmentBuff截取出对应的段落，并设置为词元文本
 	 * @return
 	 */
 	Lexeme getNextLexeme(){
