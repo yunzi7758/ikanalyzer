@@ -131,6 +131,7 @@ public final class IKSegmenter {
 				do{
         			//遍历子分词器
 					//分段器处理流程
+					//
         			for(ISegmenter segmenter : segmenters){
         				segmenter.analyze(context);
         			}

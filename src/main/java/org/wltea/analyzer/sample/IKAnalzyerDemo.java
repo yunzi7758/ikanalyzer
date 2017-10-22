@@ -50,7 +50,7 @@ public class IKAnalzyerDemo {
 	    TokenStream ts = null;
 		try {
 			//description myfield
-			ts = analyzer.tokenStream("description", new StringReader("i love adfloveadf啊短发you yunzi"));
+			ts = analyzer.tokenStream("description", new StringReader("i love adfl中文ov中文分词eadf啊短发you yunzi"));
 			//获取词元位置属性
 		    OffsetAttribute  offset = ts.addAttribute(OffsetAttribute.class); 
 		    //获取词元文本属性
